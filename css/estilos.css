@@ -1,0 +1,211 @@
+
+/*===================MENU==========================*/
+
+#menu a, button{
+    font-size: 18px !important;
+    font-weight: 600;
+   
+}
+
+#menu a{
+    color:#e60b0b;
+    
+}
+.nav-item a{
+    color: #0f0602;
+    
+}
+/*===================CARRUCEL DE IMAGENES==========================*/
+
+.carousel-inner {
+    max-height:39rem !important;
+}
+/*===================BOX==========================*/
+.caja_s{
+	border:1px solid #ccc;
+	padding:2%;
+	text-align:center;
+}
+.caja_s p{
+	color:#666;
+}
+.caja_s h2{
+	font-family:"Times New Roman", Times, serif;
+}
+.p-2{
+    width: 30%;
+}
+.etiqueta1{
+    display: flex;
+    justify-content: left;
+    font-weight: bold;
+    background-color: #cc6fc9;
+    color: white;
+    height: 38px;
+    padding: 10px;
+    border-radius: 0px 0px 20px 20px;
+    margin: 0px 1150px 0px 0px;
+}
+.etiqueta2{
+    display: flex;
+    justify-content: left;
+    font-weight: bold;
+    background-color: #6ed0ee;
+    color: white;
+    height: 38px;
+    padding: 10px;
+    border-radius: 0px 0px 20px 20px;
+    margin: 0px 1150px 0px 0px;
+}
+.rt{
+    width: 200px;
+    height: 50px;
+    background-color:darkgray ;
+    
+    border-radius: 0%;
+    text-align: center;
+}
+.rt a {
+    text-decoration: none;
+    color: black;
+}
+
+.caja{
+    display: flex;
+    ;
+    margin: 60px;
+}
+.section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.sg img {
+    width: 40px;
+    height: 40px;
+    border-radius: 2rem;
+}
+#ft{
+    text-align: center;
+}
+.bt{
+    width: 200px;
+    height: 50px;
+    background-color:darkgray ;
+    color: black;
+    border-radius: 1rem;
+}
+.bt a {
+    text-decoration: none;
+    color: black;
+}
+.logo {
+    display: left;
+    border-radius: 50%;
+    width: 150px;
+    
+}
+.logo-nav{
+    width: 85px
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: flex;
+    gap: 4rem;
+}
+.etiqueta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background-color: #BC846E;
+    color: white;
+    height: 30px;
+}
+.img-responsive{
+    padding: 1%;
+}
+/*=========================CONTACTENOS================================*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+.container-form{
+            width: 100%;
+            max-width: 1350px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-gap: 50px;
+            margin-top: 10px;
+        }
+        .container-form h2{
+            margin-bottom: 15px;
+            font-size: 35px
+        }
+        h2{
+            color: #0096AB;
+
+        }
+        .container-form p{
+            font-size: 17px;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+        .container-form a{
+            font-size: 17px;
+            display: inline-block;
+            text-decoration: none;
+            width: 100%;
+            margin-bottom: 15px;
+            color: #0096AB;
+            font-weight: 700;
+        }
+        .container-form a i{
+            color: #0096AB;
+            margin-right: 10px;
+        }
+        .container-form form .campo, textarea{
+            width: 100%;
+            padding: 15px 10px;
+            font-size: 16px;
+            border: 1px solid #dbdbdb;
+            margin-bottom: 20px;
+            border-radius: 3px;
+            outline: 0px;
+        }
+        .container-form form textarea{
+            max-width: 530px;
+            min-width: 530px;
+            min-height: 140px;
+            max-height: 150px;
+        }
+        .container-form .btn-enviar{
+            padding: 15px;
+            font-size: 16px;
+            border: none;
+            outline: 0px;
+            background: #0096AB;
+            color: white;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 300ms ease;
+        }
+        .container-form .btn-enviar:hover{
+            background: #015763;
+        }
+/*=========================FOOTER================================*/
+
+section p{
+    color:#080808;
+    text-align:center;
+    background-color: #ffffff;
+}
+#iconos  i {
+    font-size: 26px;
+    padding: 0 18px;
+    color:#b90d0d;
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
