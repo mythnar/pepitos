@@ -57,6 +57,14 @@
     border-radius: 0px 0px 20px 20px;
     margin: 0px 1150px 0px 0px;
 }
+.galeria1{
+    background-image: url(../imagenes/fondo4.jpeg);
+    padding: 1%;
+}
+.galeria2{
+    background-image: url(../imagenes/bg2.png);
+    padding: 1%;
+}
 .rt{
     width: 200px;
     height: 50px;
